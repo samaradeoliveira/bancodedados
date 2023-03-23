@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="fire.png" type="image/x-png">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <title>Inicio BD</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+  <script>
+    // Configuração do Firebase do seu aplicativo da web
+    //adicione aqui
+    //dados do banco
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyA7H2GAcQUNE8JWH9l2mzKzlaKvqUYYBII",
+      authDomain: "projetoenzo-3c92d.firebaseapp.com",
+      databaseURL: "https://projetoenzo-3c92d-default-rtdb.firebaseio.com",
+      projectId: "projetoenzo-3c92d",
+      storageBucket: "projetoenzo-3c92d.appspot.com",
+      messagingSenderId: "695129573341",
+      appId: "1:695129573341:web:80a3984424177a61dfd834"
+    };
+
+
+    // Inicializar Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
